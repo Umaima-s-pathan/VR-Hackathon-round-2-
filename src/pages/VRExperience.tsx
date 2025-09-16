@@ -205,7 +205,7 @@ const VRExperience = () => {
             autoPlay
             playsInline
           >
-            <source src="‪C:\Users\abank\Downloads\output.mp4" type="video/mp4" />
+            <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4" />
           </video>
         </a-assets>
 
