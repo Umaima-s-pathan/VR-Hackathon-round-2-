@@ -205,7 +205,7 @@ const VRExperience = () => {
             autoPlay
             playsInline
           >
-            <source src="https://drive.google.com/file/d/181J6kV-oAfQ3TehOutC5pfGWwwwOuYQ5/view?usp=sharing" type="video/mp4" />
+            <source src="https://drive.google.com/uc?export=download&id=181J6kV-oAfQ3TehOutC5pfGWwwwOuYQ5" type="video/mp4" />
           </video>
         </a-assets>
 
