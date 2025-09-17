@@ -125,10 +125,10 @@ const VRExperience = () => {
       <a-scene embedded style={{ width: '100%', height: '100%' }} vr-mode-ui="enabled: true" device-orientation-permission-ui="enabled: true">
         <a-assets>
           <video id="vrVideo" crossOrigin="anonymous" loop muted={isMuted} autoPlay playsInline>
-            {/* Corrected video path */}
-            <source src="/vrclip.mp4" type="video/mp4" />
-          </video>
-        </a-assets>
+            <source src="/VR-Hackathon-round-2-/vrclip.mp4" type="video/mp4" />
+            </video>
+          </a-assets>
+        
 
         <a-videosphere src="#vrVideo" rotation="0 180 0" radius="100" segments-width="64" segments-height="32"></a-videosphere>
 
